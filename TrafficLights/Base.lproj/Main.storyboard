@@ -16,34 +16,33 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZMM-Js-qK4">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZMM-Js-qK4">
                                 <rect key="frame" x="137.5" y="329" width="100" height="100"/>
                                 <color key="backgroundColor" systemColor="systemGreenColor"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="100" id="f38-Qt-nQ1"/>
-                                    <constraint firstAttribute="width" constant="100" id="l9v-Ls-iCR"/>
+                                    <constraint firstAttribute="width" secondItem="ZMM-Js-qK4" secondAttribute="height" multiplier="1:1" id="XJg-UP-Gcg"/>
                                 </constraints>
                             </view>
-                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3xu-gj-smL">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3xu-gj-smL">
                                 <rect key="frame" x="137.5" y="186" width="100" height="100"/>
                                 <color key="backgroundColor" red="1" green="0.91677727474582948" blue="0.14053151554916044" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="100" id="CGO-GQ-QSU"/>
-                                    <constraint firstAttribute="height" constant="100" id="IeB-ST-FTR"/>
+                                    <constraint firstAttribute="width" secondItem="3xu-gj-smL" secondAttribute="height" multiplier="1:1" id="N8Z-sv-sdu"/>
                                 </constraints>
                             </view>
-                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8oQ-YM-FI7">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8oQ-YM-FI7">
                                 <rect key="frame" x="137.5" y="43" width="100" height="100"/>
                                 <color key="backgroundColor" systemColor="systemRedColor"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="100" id="B1P-QH-Jhh"/>
-                                    <constraint firstAttribute="height" constant="100" id="S7N-Au-oEb"/>
+                                    <constraint firstAttribute="width" secondItem="8oQ-YM-FI7" secondAttribute="height" multiplier="1:1" id="cJy-9o-I1p"/>
                                 </constraints>
                             </view>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JPl-GU-J1W">
-                                <rect key="frame" x="110" y="534" width="155" height="63"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JPl-GU-J1W">
+                                <rect key="frame" x="117.5" y="540" width="140" height="57"/>
                                 <color key="backgroundColor" red="0.10511213561438656" green="0.48006621239066366" blue="0.76939731840000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="JPl-GU-J1W" secondAttribute="height" multiplier="140:57" id="wjg-bq-xpv"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="37"/>
                                 <state key="normal" title="START">
                                     <color key="titleColor" red="0.92941176889999999" green="0.93333339689999995" blue="0.96470588450000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -53,11 +52,26 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="JPl-GU-J1W" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="4xd-3D-NzO"/>
+                            <constraint firstItem="JPl-GU-J1W" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.0854573" id="7kg-Jz-4iQ"/>
+                            <constraint firstItem="3xu-gj-smL" firstAttribute="top" secondItem="8oQ-YM-FI7" secondAttribute="bottom" constant="43" id="DOb-Lm-mTV"/>
+                            <constraint firstItem="ZMM-Js-qK4" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.149925" id="MyH-rZ-zhW"/>
+                            <constraint firstItem="8oQ-YM-FI7" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="43" id="Q7v-IF-faA"/>
+                            <constraint firstItem="3xu-gj-smL" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Zwj-nQ-lKb"/>
+                            <constraint firstItem="ZMM-Js-qK4" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="ap7-ml-8QT"/>
+                            <constraint firstItem="JPl-GU-J1W" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="baZ-91-UyZ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="JPl-GU-J1W" secondAttribute="bottom" constant="70" id="gHg-qB-40R"/>
+                            <constraint firstItem="3xu-gj-smL" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.149925" id="gcW-ba-Lpn"/>
+                            <constraint firstItem="8oQ-YM-FI7" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="jKn-Sc-av7"/>
+                            <constraint firstItem="ZMM-Js-qK4" firstAttribute="top" secondItem="3xu-gj-smL" secondAttribute="bottom" constant="43" id="rG5-kW-nkz"/>
+                            <constraint firstItem="8oQ-YM-FI7" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.149925" id="tuZ-th-ghP"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="16.822429906542055" y="75.161987041036724"/>
+            <point key="canvasLocation" x="16.800000000000001" y="75.112443778110944"/>
         </scene>
     </scenes>
     <resources>
