@@ -16,56 +16,54 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZMM-Js-qK4">
-                                <rect key="frame" x="137.5" y="329" width="100" height="100"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OaP-OL-Ztn">
+                                <rect key="frame" x="137.5" y="180" width="100" height="100"/>
+                                <color key="backgroundColor" systemColor="systemYellowColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="OaP-OL-Ztn" secondAttribute="height" multiplier="1:1" id="6SV-Bv-EKq"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gNU-G5-Cl3">
+                                <rect key="frame" x="137.5" y="44" width="100" height="100"/>
+                                <color key="backgroundColor" systemColor="systemPinkColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="gNU-G5-Cl3" secondAttribute="height" multiplier="1:1" id="7Yi-Gd-YDl"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Gts-Wm-yAI">
+                                <rect key="frame" x="137.5" y="318" width="100" height="100"/>
                                 <color key="backgroundColor" systemColor="systemGreenColor"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" secondItem="ZMM-Js-qK4" secondAttribute="height" multiplier="1:1" id="XJg-UP-Gcg"/>
+                                    <constraint firstAttribute="width" secondItem="Gts-Wm-yAI" secondAttribute="height" multiplier="1:1" id="iJg-Fg-bbM"/>
                                 </constraints>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3xu-gj-smL">
-                                <rect key="frame" x="137.5" y="186" width="100" height="100"/>
-                                <color key="backgroundColor" red="1" green="0.91677727474582948" blue="0.14053151554916044" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a9U-mV-Eu9">
+                                <rect key="frame" x="104.5" y="556" width="166" height="59"/>
+                                <color key="backgroundColor" red="0.41550505939999999" green="0.57877980750000002" blue="0.76939731840000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" secondItem="3xu-gj-smL" secondAttribute="height" multiplier="1:1" id="N8Z-sv-sdu"/>
+                                    <constraint firstAttribute="width" constant="166" id="lSA-ir-66O"/>
                                 </constraints>
-                            </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8oQ-YM-FI7">
-                                <rect key="frame" x="137.5" y="43" width="100" height="100"/>
-                                <color key="backgroundColor" systemColor="systemRedColor"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="8oQ-YM-FI7" secondAttribute="height" multiplier="1:1" id="cJy-9o-I1p"/>
-                                </constraints>
-                            </view>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JPl-GU-J1W">
-                                <rect key="frame" x="117.5" y="540" width="140" height="57"/>
-                                <color key="backgroundColor" red="0.10511213561438656" green="0.48006621239066366" blue="0.76939731840000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="JPl-GU-J1W" secondAttribute="height" multiplier="140:57" id="wjg-bq-xpv"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="37"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="39"/>
                                 <state key="normal" title="START">
                                     <color key="titleColor" red="0.92941176889999999" green="0.93333339689999995" blue="0.96470588450000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                    <color key="titleShadowColor" red="0.41550505939999999" green="0.57877980750000002" blue="0.76939731840000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="JPl-GU-J1W" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="4xd-3D-NzO"/>
-                            <constraint firstItem="JPl-GU-J1W" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.0854573" id="7kg-Jz-4iQ"/>
-                            <constraint firstItem="3xu-gj-smL" firstAttribute="top" secondItem="8oQ-YM-FI7" secondAttribute="bottom" constant="43" id="DOb-Lm-mTV"/>
-                            <constraint firstItem="ZMM-Js-qK4" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.149925" id="MyH-rZ-zhW"/>
-                            <constraint firstItem="8oQ-YM-FI7" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="43" id="Q7v-IF-faA"/>
-                            <constraint firstItem="3xu-gj-smL" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Zwj-nQ-lKb"/>
-                            <constraint firstItem="ZMM-Js-qK4" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="ap7-ml-8QT"/>
-                            <constraint firstItem="JPl-GU-J1W" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="baZ-91-UyZ"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="JPl-GU-J1W" secondAttribute="bottom" constant="70" id="gHg-qB-40R"/>
-                            <constraint firstItem="3xu-gj-smL" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.149925" id="gcW-ba-Lpn"/>
-                            <constraint firstItem="8oQ-YM-FI7" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="jKn-Sc-av7"/>
-                            <constraint firstItem="ZMM-Js-qK4" firstAttribute="top" secondItem="3xu-gj-smL" secondAttribute="bottom" constant="43" id="rG5-kW-nkz"/>
-                            <constraint firstItem="8oQ-YM-FI7" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.149925" id="tuZ-th-ghP"/>
+                            <constraint firstItem="Gts-Wm-yAI" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="5rk-IR-Fog"/>
+                            <constraint firstItem="a9U-mV-Eu9" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="MeX-Bq-aUP"/>
+                            <constraint firstItem="a9U-mV-Eu9" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.0884558" id="Uve-ft-0Rh"/>
+                            <constraint firstItem="Gts-Wm-yAI" firstAttribute="top" secondItem="OaP-OL-Ztn" secondAttribute="bottom" constant="38" id="bIX-Ye-ONI"/>
+                            <constraint firstItem="OaP-OL-Ztn" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.149925" id="cXS-es-Fpx"/>
+                            <constraint firstItem="gNU-G5-Cl3" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="dSn-fd-lRc"/>
+                            <constraint firstItem="gNU-G5-Cl3" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="44" id="duX-VG-mXT"/>
+                            <constraint firstItem="gNU-G5-Cl3" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.149925" id="jeT-yO-mmn"/>
+                            <constraint firstItem="OaP-OL-Ztn" firstAttribute="top" secondItem="gNU-G5-Cl3" secondAttribute="bottom" constant="36" id="kMR-Jw-YFz"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="a9U-mV-Eu9" secondAttribute="bottom" constant="52" id="pYr-cZ-R8E"/>
+                            <constraint firstItem="Gts-Wm-yAI" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.149925" id="tSa-cZ-lFk"/>
+                            <constraint firstItem="OaP-OL-Ztn" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="zNc-J8-s1q"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -81,8 +79,11 @@
         <systemColor name="systemGreenColor">
             <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
-        <systemColor name="systemRedColor">
-            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        <systemColor name="systemPinkColor">
+            <color red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
